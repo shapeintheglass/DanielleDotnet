@@ -8,11 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.12" />
     <PackageReference Include="System.CommandLine" Version="2.0.12" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\humansfinal.json" />
+    <EmbeddedResource Include="Resources\*.json" />
   </ItemGroup>
 
 </Project>

@@ -1,29 +1,27 @@
-using System.Collections.Immutable;
 using System.Text.Json;
 using System.Xml;
+using DanielleDotnet.Core;
 using DanielleDotnet.Models.BodyRandomization;
 using DanielleDotnet.Utils;
 
 namespace DanielleDotnet.Randomizers;
 
-public class BodyRandomizer(string modDataPath, Random r)
+// TODO: Update to be less cursed
+public class BodyRandomizer(FileManager fm, RandomGenerator rg)
 {
-    private readonly string HumansFinalPath = Path.Combine("objects", "characters", "humansfinal");
-    // TODO: Better leverage resources
-    private readonly string SourceHumansFinalFile = Path.Combine("resources", "humansfinal.json");
     private const string ChrParamsFormat = "Animations/Characters/Humans/Dialogue/{0}/{0}.chrparams";
+    private static readonly string HumansFinalPath = Path.Combine("objects", "characters", "humansfinal");
+    private static readonly string SourceHumansFinalFile = Path.Combine("resources", "preprocessed_npcbodies.json");
+
+    private readonly Random _r = rg.GetNewRandom();
 
     public async Task Randomize()
     {
-        // Delete and recreate folder
-        var humansFinalFolder = Path.Combine(modDataPath, HumansFinalPath);
-        // TODO: Create mod in temporary directory before copying over
-        if (!Directory.Exists(humansFinalFolder))
-        {
-            Directory.CreateDirectory(humansFinalFolder);
-        }
+        var humansFinalFolder = Path.Combine(fm.GetTempModPath(), HumansFinalPath);
+        Directory.CreateDirectory(humansFinalFolder);
 
-        using FileStream openStream = File.OpenRead(SourceHumansFinalFile);
+        // TODO: Verify resource file exists and maybe use more efficiently
+        await using var openStream = File.OpenRead(SourceHumansFinalFile);
         var bodies = await JsonSerializer.DeserializeAsync<Bodies>(openStream);
 
         if (bodies!.Body == null)
@@ -43,8 +41,8 @@ public class BodyRandomizer(string modDataPath, Random r)
             };
 
             // Get body type
-            string skeleton = "";
-            string attachments = "";
+            var skeleton = "";
+            var attachments = "";
             var bodyStr = BodyConsts.PREFIX;
             var headStr = BodyConsts.PREFIX;
             var hairStr = BodyConsts.PREFIX;
@@ -53,21 +51,21 @@ public class BodyRandomizer(string modDataPath, Random r)
                 case "Male":
                     skeleton = BodyConsts.MALE_BODY_TYPE;
                     attachments = BodyConsts.MALE_ATTACHMENTS;
-                    var bodyIndex = r.Next(BodyConsts.MALE_BODIES_MAP.Values.Length);
+                    var bodyIndex = _r.Next(BodyConsts.MALE_BODIES_MAP.Values.Length);
                     bodyStr += BodyConsts.MALE_BODIES_MAP.Values[bodyIndex];
-                    var headIndex = r.Next(BodyConsts.MALE_HEADS_MAP.Values.Length);
+                    var headIndex = _r.Next(BodyConsts.MALE_HEADS_MAP.Values.Length);
                     headStr += BodyConsts.MALE_HEADS_MAP.Values[headIndex];
-                    var hairIndex = r.Next(BodyConsts.MALE_HAIRS_MAP.Values.Length);
+                    var hairIndex = _r.Next(BodyConsts.MALE_HAIRS_MAP.Values.Length);
                     hairStr += BodyConsts.MALE_HAIRS_MAP.Values[hairIndex];
                     break;
                 case "Female":
                     skeleton = BodyConsts.FEMALE_BODY_TYPE;
                     attachments = BodyConsts.FEMALE_ATTACHMENTS;
-                    bodyIndex = r.Next(BodyConsts.FEMALE_BODIES_MAP.Values.Length);
+                    bodyIndex = _r.Next(BodyConsts.FEMALE_BODIES_MAP.Values.Length);
                     bodyStr += BodyConsts.FEMALE_BODIES_MAP.Values[bodyIndex];
-                    headIndex = r.Next(BodyConsts.FEMALE_HEADS_MAP.Values.Length);
+                    headIndex = _r.Next(BodyConsts.FEMALE_HEADS_MAP.Values.Length);
                     headStr += BodyConsts.FEMALE_HEADS_MAP.Values[headIndex];
-                    hairIndex = r.Next(BodyConsts.FEMALE_HAIRS_MAP.Values.Length);
+                    hairIndex = _r.Next(BodyConsts.FEMALE_HAIRS_MAP.Values.Length);
                     hairStr += BodyConsts.FEMALE_HAIRS_MAP.Values[hairIndex];
                     break;
                 case "LargeMale":
@@ -75,9 +73,9 @@ public class BodyRandomizer(string modDataPath, Random r)
                     attachments = BodyConsts.LARGE_MALE_ATTACHMENTS;
                     // TODO: Is there an alternate Alex suit?
                     bodyStr += BodyConsts.LARGE_MALE_BODY_MODEL;
-                    headIndex = r.Next(BodyConsts.LARGE_MALE_HEADS_MAP.Values.Length);
+                    headIndex = _r.Next(BodyConsts.LARGE_MALE_HEADS_MAP.Values.Length);
                     headStr += BodyConsts.LARGE_MALE_HEADS_MAP.Values[headIndex];
-                    hairIndex = r.Next(BodyConsts.LARGE_MALE_HAIRS_MAP.Values.Length);
+                    hairIndex = _r.Next(BodyConsts.LARGE_MALE_HAIRS_MAP.Values.Length);
                     hairStr += BodyConsts.LARGE_MALE_HAIRS_MAP.Values[hairIndex];
                     break;
             }
@@ -90,9 +88,9 @@ public class BodyRandomizer(string modDataPath, Random r)
             }
 
 
-            using FileStream writeStream = File.OpenWrite(fileToWrite);
+            await using FileStream writeStream = File.OpenWrite(fileToWrite);
             writeStream.SetLength(0);
-            using XmlWriter writer = XmlWriter.Create(writeStream, settings);
+            await using XmlWriter writer = XmlWriter.Create(writeStream, settings);
             await writer.WriteStartElementAsync(null, "CharacterDefinition", null);
             await writer.WriteStartElementAsync(null, "Model", null);
             await writer.WriteAttributeStringAsync(null, "File", null, skeleton);
