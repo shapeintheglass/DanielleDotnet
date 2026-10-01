@@ -1,0 +1,1429 @@
+{
+  "body": [
+    {
+      "name": "AaronIngram.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E571E2F48"
+    },
+    {
+      "name": "AbigailFoy.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "AdrianHolland.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "AimeSchmidt.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "AkandeBenin.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "AlanBianchi.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "AlejandroMata.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "AlexKarl.cdf",
+      "skeleton": "LargeMale",
+      "chrparams": "BDDB548E54D1149E"
+    },
+    {
+      "name": "AlexKarlVariant.cdf",
+      "skeleton": "LargeMale",
+      "chrparams": "BDDB548E54D1149E"
+    },
+    {
+      "name": "AlfredRose.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "AliceAiken.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "AlikaJames.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "AllisonBrady.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "AltonWeber.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "AnastaciaUriegas.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "AndersKline.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "AndreaHudson.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "AndrewGrey.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "AngelaDiaz.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "AnnaGoldcrest.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "AnnaliseGallegos.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "AnongLao.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "AnthonyAquilante.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "AntonGruber.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "AprilMcGuire.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "AriLiudnarht.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "AshLasair.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "AugustoVera.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "AustinCool.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "BernardGriffith.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "BethIno.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "BiancaGoodwin.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "BillNixon-Greene.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "BlaineCooly.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "BrandiPester.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "BrendaCabrera.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "BrettSeydel.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "BrittanyLaValley.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "BruceCobb.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "CalebHawethorne.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "CarinBuckley.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "CarlosPopinga.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "CarolSikes.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "ChloeBurgess.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "ChristopherSmith.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "ChrisWade.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "ClarkeRafferty.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "CliveLawrence.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "ColetteMay-Schultz.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "ConradBirchman.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "CoryRichard.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "CrispinBoyer.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "CynthiaDringus.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "DaisyWhite.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "DanBillingsly.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "DanielLandon.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "DanielleSho.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "DarcyMaddox.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "DavidBranch.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "DavidSimmonds.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "DayoIgwe.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E5550FC76"
+    },
+    {
+      "name": "DemianLinn.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "DianeWashington.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "DimitriBowser.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "DivyaNaaz.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "DonaldHall.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "DonDavis.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "DrewSpringer.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "DuncanKrassikoff.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "EddieVoss.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "EdenaBurton.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "EdwardDouglas.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "EkaterinaMulsaev.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "EliasBlack.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "ElizabethBay.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "ElleGold.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "EmilyCarter.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "EmmaBeatty.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "EmmanuellaDeSilva.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "EmmanuelMendez.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "EnochKouneva.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "EricaTeague.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "EricBerger.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "EveCoolidge.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "EvelynMcCarthy.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "EvgeniCharzov.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "EviLoveless.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "FrankJones.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "FranklinGoode.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "FranzKlinger.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "FrederickSteele.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "GalelSeif.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "GarfieldLangly.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "GarySnow.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "GennadyMironov.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "GeraldWildman.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "GordonBitz.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "GrantLockwood.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "GregoryKepner.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "GreteMikkelsen.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "GusMagill.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "GustavLeitner.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "GuyCroal.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "GuyJameson.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "HadleyDalton.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "HaldenGraves.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "HankMajors.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "HansKelstrup.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "HarleyGrainger.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "HarveyClausen.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "HeatherBentz.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "HelenCroft.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "HendrikDeVries.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "HopeEllis.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "HunterHale.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "IanRolston.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "IkeStewart.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "IndigoLake.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "IrisStein.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "IvyPark.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "IzumiMinami.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "JadaMarks-Captain.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "JanosJozsef.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "JasonChang.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "JeanFaure.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "JenniferLee.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "JennyKing.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "JeromeElliot.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "JessicaWiley.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "JiaKyung-Ho.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "Jiao-LongHeng.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "JillianQuigg.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "JoelWeeks.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "JohnHaskins.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "JohnnyBrungen.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "JordanYax.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "JorgenThorstein.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "JoseCosta.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "JosephMcSorley.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "JoshDalton.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "JoshuaVanstry.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "JovanGavrilovic.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "JulienHoward.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "JuniorBookman.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "KadeMason.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "KaneRosito.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "KarismaChouhan.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "KeiraWhitman.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "KellyRandolph.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "KevinHague.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "KevinSabian.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "KimberlyBomo.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "Kirk Remmer.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "KolyaKorneyev.cdf",
+      "skeleton": "Male",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "KristineLloyd.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "LaneCarpenter.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "LanNguyen.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "LauraMcAvoy.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "LaurelDavis.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "LawrenceBaxter.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "LeonWoods.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "LiaMacy.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "LillyMorris.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "LisaLarson.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "LizzyColton.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "LLMcFarland.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "LloydThompson.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "LorenzoCalvino.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E5526984B"
+    },
+    {
+      "name": "LorenzoCalvino_Cinematic.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E5526984B"
+    },
+    {
+      "name": "LuciaJimenez.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "LuciaJimenez_Corpse.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "LukaGolubkin.cdf",
+      "skeleton": "LargeMale",
+      "chrparams": "BDDB548E5550FB0E"
+    },
+    {
+      "name": "LutherGlass.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "LynCloyer.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "MaliahFowles.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "MarcoSimmons.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "MarcSellers.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "MarianaArias.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "MariettaKyrkos.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "MartinGiroud.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "MaryMalinaro.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "MaryPage.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "MaryStevens.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "MathiasKohl.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "MattCothron.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "MatthewConnolly.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "mattsdude.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "MaxineFord.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "MaxWeigel-Goetz.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "MiaBayer.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "MickeyPitt.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "MiguelLopez.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "MikeDevlin.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "MikeTurner.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "MikhailaIlyushin.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E5550F869"
+    },
+    {
+      "name": "MischaLazarev.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "MitsuoKimura.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "MiyuSato.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "MorganKarlFemale.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E5525ABEC"
+    },
+    {
+      "name": "MorganKarlFemale_RedEye.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E5525ABEC"
+    },
+    {
+      "name": "MorganKarlMale.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBB009"
+    },
+    {
+      "name": "MorganKarlMale_RedEye.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBB009"
+    },
+    {
+      "name": "NashUnderwood.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "NatashaNikova.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "NeilWarnes.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "NenoNikolic.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "NicholasStillwater.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "NickieTannar.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "NilsKjaergaard.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "OctaviaFiggs.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "OksanaGroysman.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "OliverBenoit.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "OmarBolivar.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "OttoLauda.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "PabloMeyers.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "PatriciaVarma.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "PatriciaWang.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "PennyTennyson.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "PerryFullbright.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "PeterColeman.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "PhongVu.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "PriceBroadway.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "QuintenPurvis.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "RamonRidley.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "RandallWood.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "RandolfHutchinson.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "Rani Chaudhary.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF7E"
+    },
+    {
+      "name": "RayaLeiruat.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "ReginaSellers.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "RichardCoveney.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "RichIvers.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "RileyButler.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "RobertGage.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "RodneySPoole.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "RodrigoDiaz.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "RogerMeir.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "RoryManion.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "RubyStone.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "SadieHall.cdf",
+      "skeleton": "Female",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "SalmanKapoor.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "SamHertz.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "SanjayPuri.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "SarahElazar.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E5550F7D8"
+    },
+    {
+      "name": "ScottParker.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "SeanLarsen.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "SebastianAvery.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "SkyeBraxton.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "SpencerOgden.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "SteveFolson.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "StevenMueller.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "StoneBlanchard.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "SylvianBellamy.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E55269525"
+    },
+    {
+      "name": "SylvianBellamyHusked.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E55269525"
+    },
+    {
+      "name": "TaliaBrooks.cdf",
+      "skeleton": "Female",
+      "chrparams": ""
+    },
+    {
+      "name": "TamikoHayashi.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "TanaVale.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF6A"
+    },
+    {
+      "name": "TerryHigginbotham.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "ThaddeusYork.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "ThomasLutz.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "ThomasTucker.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "TinaSnow.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "TitusKromwell.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "TobiasFrost.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "ToddMatsuyama.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF56"
+    },
+    {
+      "name": "TomCooper.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "TrevorYoung.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54D12179"
+    },
+    {
+      "name": "UmiIsaka.cdf",
+      "skeleton": "Female",
+      "chrparams": "BDDB548E54DBAF74"
+    },
+    {
+      "name": "VanyaRazin.cdf",
+      "skeleton": "Male",
+      "chrparams": "3C5D528955B2C352"
+    },
+    {
+      "name": "VeerSingh.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VictorYablonsky.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "VincentSchubel.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E559556CC"
+    },
+    {
+      "name": "VolunteerB.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VolunteerC.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VolunteerD.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VolunteerE.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VolunteerF.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VolunteerG.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VolunteerH.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VolunteerI.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "VolunteerJ.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "WaltherDahl.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E5550F706"
+    },
+    {
+      "name": "WillMitchell.cdf",
+      "skeleton": "Male",
+      "chrparams": "BDDB548E54DBAF39"
+    },
+    {
+      "name": "YuriAndronov.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "ZacharyWest.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    },
+    {
+      "name": "ZhaoSun.cdf",
+      "skeleton": "Male",
+      "chrparams": ""
+    }
+  ]
+}
