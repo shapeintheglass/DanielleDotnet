@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResponseRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Ark/Dialog/DialogLogic/ResponseRules.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd">
+    <ResponseSet id="13680621263369931706">
+        <Response dialog="13680621263369931705" id="13680621263369931707" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369931765">
+        <Response dialog="13680621263369931764" id="13680621263369931766" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369931787">
+        <Response dialog="13680621263369931785" id="13680621263369931788" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369931848">
+        <Response dialog="13680621263369931846" id="13680621263369931849" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369931942">
+        <Response dialog="13680621263369931940" id="13680621263369931943" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369932233">
+        <Response dialog="13680621263369932231" id="13680621263369932234" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369932750">
+        <Response dialog="13680621263369932749" id="13680621263369932751" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369932829">
+        <Response dialog="13680621263369932827" id="13680621263369932830" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369932896">
+        <Response dialog="13680621263369932895" id="13680621263369932897" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369933072">
+        <Response dialog="13680621263369933070" id="13680621263369933073" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369933147">
+        <Response dialog="13680621263369933145" id="13680621263369933148" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="2" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369933307">
+        <Response dialog="13680621263369933305" id="13680621263369933308" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369933405">
+        <Response dialog="13680621263369933403" id="13680621263369933406" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369933875">
+        <Response dialog="13680621263369933873" id="13680621263369933876" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" emotion="15659330456346423977" />
+    </ResponseSet>
+    <ResponseSet id="13680621263369933887">
+        <Response dialog="13680621263369933903" id="13680621263369933888" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370101037">
+        <Response dialog="13680621263370101036" id="13680621263370101038" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370101411">
+        <Response dialog="13680621263370101410" id="13680621263370101412" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370101421">
+        <Response dialog="13680621263369932533" id="13680621263370101422" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370101448">
+        <Response dialog="13680621263369932533" id="13680621263370101449" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370101513">
+        <Response dialog="13680621263370101512" id="13680621263370101514" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370102409">
+        <Response dialog="13680621263370102408" id="13680621263370102410" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" emotion="3152439162748318046" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370102853">
+        <Response dialog="13680621263382831115" id="13680621263370102854" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" emotion="3152439162748318026" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370103005">
+        <Response dialog="13680621263370103004" id="13680621263370103006" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" emotion="3152439162748318026" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370103058">
+        <Response dialog="13680621263370103057" id="13680621263370103059" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318026" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370103253">
+        <Response dialog="13680621263370103252" id="13680621263370103254" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" emotion="15659330456346423977" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370105761">
+        <Response dialog="13680621263370105760" id="13680621263370105762" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370123860">
+        <Response dialog="13680621263370123859" id="13680621263370123861" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124038">
+        <Response dialog="13680621263370124037" id="13680621263370124039" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="13680621263358635980" targetType="2" speakerTrackMethod="2" targetTrackMethod="2" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124094">
+        <Response dialog="13680621263370124093" id="13680621263370124095" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124140">
+        <Response dialog="13680621263369931785" id="13680621263370124141" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124159">
+        <Response dialog="13680621263369931846" id="13680621263370124160" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124254">
+        <Response dialog="13680621263369931940" id="13680621263370124255" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124320">
+        <Response dialog="13680621263370124318" id="13680621263370124321" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124331">
+        <Response dialog="13680621263370124329" id="13680621263370124332" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124338">
+        <Response dialog="13680621263370124336" id="13680621263370124339" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124523">
+        <Response dialog="13680621263369932749" id="13680621263370124524" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="2" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124565">
+        <Response dialog="13680621263370124563" id="13680621263370124566" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124581">
+        <Response dialog="13680621263370124579" id="13680621263370124582" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124615">
+        <Response dialog="13680621263370124613" id="13680621263370124616" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124645">
+        <Response dialog="13680621263370124643" id="13680621263370124646" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124731">
+        <Response dialog="13680621263370124730" id="13680621263370124732" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370124890">
+        <Response dialog="13680621263370124889" id="13680621263370124891" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263370125393">
+        <Response dialog="13680621263370125392" id="13680621263370125394" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382664074">
+        <Response dialog="13680621263382664072" id="13680621263382664075" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382664183">
+        <Response dialog="13680621263382664181" id="13680621263382664184" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382664195">
+        <Response dialog="13680621263382664193" id="13680621263382664196" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382664206">
+        <Response dialog="13680621263382751220" id="13680621263382664207" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382665486">
+        <Response dialog="13680621263382665485" id="13680621263382665487" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382665529">
+        <Response dialog="13680621263382665527" id="13680621263382665530" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382665565">
+        <Response dialog="13680621263369931940" id="13680621263382665566" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382665590">
+        <Response dialog="13680621263382665588" id="13680621263382665591" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382665627">
+        <Response dialog="13680621263382665625" id="13680621263382665628" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382666513">
+        <Response dialog="13680621263382666511" id="13680621263382666514" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382666517">
+        <Response dialog="13680621263382666515" id="13680621263382666518" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382666590">
+        <Response dialog="13680621263369933603" id="13680621263382666591" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="1713490239389130908" targetType="2" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382666612">
+        <Response dialog="13680621263382666610" id="13680621263382666613" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382747135">
+        <Response dialog="13680621263369932749" id="13680621263382747136" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382747177">
+        <Response dialog="13680621263369932827" id="13680621263382747178" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382747217">
+        <Response dialog="13680621263369933070" id="13680621263382747218" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382747226">
+        <Response dialog="13680621263369933145" id="13680621263382747227" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="2" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382747270">
+        <Response dialog="13680621263369933305" id="13680621263382747271" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382749763">
+        <Response dialog="13680621263382749761" id="13680621263382749764" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382749772">
+        <Response dialog="13680621263382749770" id="13680621263382749773" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="2" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382749807">
+        <Response dialog="13680621263382749805" id="13680621263382749808" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382750044">
+        <Response dialog="13680621263382750042" id="13680621263382750045" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382750056">
+        <Response dialog="13680621263382750054" id="13680621263382750057" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="1713490239389130908" targetType="2" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382750091">
+        <Response dialog="13680621263382750089" id="13680621263382750092" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382750107">
+        <Response dialog="13680621263382750105" id="13680621263382750108" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382750130">
+        <Response dialog="13680621263382750128" id="13680621263382750131" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="2" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382750166">
+        <Response dialog="13680621263382750164" id="13680621263382750167" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="2" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382750197">
+        <Response dialog="13680621263382750195" id="13680621263382750198" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382750232">
+        <Response dialog="13680621263382750230" id="13680621263382750233" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetType="1" targetId="0" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382756600">
+        <Response dialog="13680621263369933885" id="13680621263382756601" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" emotion="3152439162748318026" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382756631">
+        <Response dialog="13680621263382756629" id="13680621263382756632" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" emotion="3152439162748318046" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382756764">
+        <Response dialog="13680621263382756762" id="13680621263382756765" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" emotion="15659330456346424000" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382756787">
+        <Response dialog="13680621263382756785" id="13680621263382756788" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" emotion="3152439162748318046" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382756959">
+        <Response dialog="13680621263382756958" id="13680621263382756960" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="1" targetId="0" speakerTrackMethod="1" targetTrackMethod="0" emotion="15659330456346424000" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382757843">
+        <Response dialog="13680621263382757841" id="13680621263382757844" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318046" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382758496">
+        <Response dialog="13680621263382758495" id="13680621263382758497" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" emotion="15659330456346423977" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382802718">
+        <Response dialog="13680621263382802716" id="13680621263382802719" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" emotion="3152439162748318026" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382802730">
+        <Response dialog="13680621263369933903" id="13680621263382802731" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382802786">
+        <Response dialog="13680621263382802784" id="13680621263382802787" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382802837">
+        <Response dialog="13680621263382802784" id="13680621263382802838" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382816803">
+        <Response dialog="13680621263382816801" id="13680621263382816804" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382817049">
+        <Response dialog="13680621263382817048" id="13680621263382817050" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382817060">
+        <Response dialog="13680621263382816835" id="13680621263382817061" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382817525">
+        <Response dialog="13680621263382817524" id="13680621263382817526" cooldown="20" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318046" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+        <Response dialog="13680621263382817553" id="13856881013231024431" cooldown="20" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+        <Response dialog="13680621263382666676" id="13856881013231024440" cooldown="0" weight="100" oneshot="true" completeConversation="1" delay="0" cutoff="0" entityOneshot="false" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382818978">
+        <Response dialog="13680621263382818976" id="13680621263382818979" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="2" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382819127">
+        <Response dialog="13680621263382665485" id="13680621263382819128" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382819157">
+        <Response dialog="13680621263382665527" id="13680621263382819158" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="1713490239389130908" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382820230">
+        <Response dialog="13680621263382820228" id="13680621263382820231" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263382822856">
+        <Response dialog="13680621263382822854" id="13680621263382822857" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="2" targetTrackMethod="2" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383235296">
+        <Response dialog="13680621263383235294" id="13680621263383235297" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383245477">
+        <Response dialog="13680621263383245841" id="13680621263383245478" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383245876">
+        <Response dialog="13680621263383245841" id="13680621263383245877" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383246121">
+        <Response dialog="13680621263383246119" id="13680621263383246122" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383246561">
+        <Response dialog="13680621263383245475" id="13680621263383246562" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383248395">
+        <Response dialog="13680621263383248393" id="13680621263383248396" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383249500">
+        <Response dialog="13680621263383245475" id="13680621263383249501" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383250003">
+        <Response dialog="13680621263383250001" id="13680621263383250004" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383250017">
+        <Response dialog="13680621263383257289" id="13680621263383250018" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383257273">
+        <Response dialog="13680621263383250015" id="13680621263383257274" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383258336">
+        <Response dialog="13680621263383258335" id="13680621263383258337" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+        <Response dialog="13680621263383258347" id="13680621263383258348" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+        <Response dialog="13680621263383258357" id="13680621263383258358" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383258408">
+        <Response dialog="13680621263383258407" id="13680621263383258409" cooldown="20" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+        <Response dialog="13680621263383258459" id="13680621263383258460" cooldown="20" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+        <Response dialog="13680621263383258688" id="13680621263383258689" cooldown="20" weight="1" oneshot="0" completeConversation="0" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263383258728">
+        <Response dialog="13680621263383258726" id="13680621263383258729" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564939010771">
+        <Response dialog="4349723564939010770" id="4349723564939010772" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564939010898">
+        <Response dialog="4349723564939010897" id="4349723564939010899" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564939011270">
+        <Response dialog="13680621263382816801" id="4349723564939011271" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564939011308">
+        <Response dialog="13680621263382817048" id="4349723564939011309" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564939011331">
+        <Response dialog="13680621263382816835" id="4349723564939011332" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399756333">
+        <Response dialog="13680621263399756331" id="13680621263399756334" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetType="1" targetId="0" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399756745">
+        <Response dialog="13680621263399756743" id="13680621263399756746" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399756808">
+        <Response dialog="13680621263382822689" id="13680621263399756809" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetType="2" targetId="13680621263358635980" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399757141">
+        <Response dialog="13680621263399756743" id="13680621263399757142" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetType="1" targetId="0" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399758973">
+        <Response dialog="13680621263399758971" id="13680621263399758974" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399759006">
+        <Response dialog="13680621263399759004" id="13680621263399759007" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399759110">
+        <Response dialog="13680621263399759108" id="13680621263399759111" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399759171">
+        <Response dialog="13680621263399759169" id="13680621263399759172" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399759195">
+        <Response dialog="13680621263399759193" id="13680621263399759196" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1.5" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399759219">
+        <Response dialog="13680621263399759217" id="13680621263399759220" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="2" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760237">
+        <Response dialog="13680621263399760236" id="13680621263399760238" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="2" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760255">
+        <Response dialog="13680621263399759169" id="13680621263399760256" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760294">
+        <Response dialog="13680621263399760292" id="13680621263399760295" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1.5" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760461">
+        <Response dialog="13680621263399759217" id="13680621263399760462" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760566">
+        <Response dialog="13680621263399758971" id="13680621263399760567" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760641">
+        <Response dialog="13680621263399759004" id="13680621263399760642" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760669">
+        <Response dialog="13680621263399760236" id="13680621263399760670" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="2" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760679">
+        <Response dialog="13680621263399759169" id="13680621263399760680" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay=".5" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760917">
+        <Response dialog="13680621263399759193" id="13680621263399760918" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="2" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263399760935">
+        <Response dialog="13680621263399759217" id="13680621263399760936" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="2" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13856881013231023448">
+        <Response dialog="13680621263369933492" id="13856881013231023449" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13856881013231024135">
+        <Response dialog="13680621263369933492" id="13856881013231024136" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" targetId="0" targetType="1" speakerTrackMethod="2" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13856881013234359546">
+        <Response dialog="13680621263383258357" id="13856881013234359547" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0" />
+    </ResponseSet>
+</ResponseRules>

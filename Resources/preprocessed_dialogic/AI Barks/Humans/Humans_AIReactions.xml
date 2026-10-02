@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResponseRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Ark/Dialog/DialogLogic/ResponseRules.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd">
+    <ResponseSet id="13680621263386010017">
+        <Response dialog="13680621263386010016" id="13680621263386010018" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+        <Response dialog="13680621263386010022" id="13680621263386010023" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+        <Response dialog="13680621263386010027" id="13680621263386010028" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386010120">
+        <Response dialog="13680621263386010119" id="13680621263386010121" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386010203">
+        <Response dialog="13680621263386010202" id="13680621263386010204" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318010" />
+        <Response dialog="13680621263386010224" id="13680621263386010225" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318010" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386010265">
+        <Response dialog="13680621263386010264" id="13680621263386010266" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386010311">
+        <Response dialog="13680621263386010310" id="13680621263386010312" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386010351">
+        <Response dialog="13680621263386010350" id="13680621263386010352" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+        <Response dialog="13680621263386010361" id="13680621263386010362" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+        <Response dialog="13680621263386012513" id="13680621263386012514" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386010442">
+        <Response dialog="13680621263386010441" id="13680621263386010443" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+        <Response dialog="13680621263386010450" id="13680621263386010451" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386010599">
+        <Response dialog="13680621263386010598" id="13680621263386010600" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+        <Response dialog="13680621263386010603" id="13680621263386010604" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386012642">
+        <Response dialog="13680621263386012641" id="13680621263386012643" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318010" />
+        <Response dialog="13680621263386012663" id="13680621263386012664" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318010" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386012725">
+        <Response dialog="13680621263386012724" id="13680621263386012726" cooldown="30" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+        <Response dialog="13680621263386012748" id="13680621263386012749" cooldown="60" weight="1" oneshot="0" completeConversation="1" delay="0" entityOneshot="true" emotion="3152439162748318060" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386012897">
+        <Response dialog="13680621263386012896" id="13680621263386012898" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318053" />
+        <Response dialog="13680621263386012902" id="13680621263386012903" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386013009">
+        <Response dialog="13680621263386013008" id="13680621263386013010" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386013059">
+        <Response dialog="13680621263386013058" id="13680621263386013060" cooldown="6" weight="2" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318053" />
+        <Response dialog="13680621263386013082" id="13680621263386013083" cooldown="0" weight="2" oneshot="0" completeConversation="1" delay="0" entityOneshot="true" emotion="3152439162748318053" />
+        <Response dialog="13680621263386012896" id="13680621263408741336" cooldown="6" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0" emotion="3152439162748318053" />
+        <Response dialog="13680621263386012902" id="13680621263408741372" cooldown="6" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0" emotion="3152439162748318053" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386013119">
+        <Response dialog="13680621263386013118" id="13680621263386013120" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318010" />
+        <Response dialog="13680621263386013146" id="13680621263386013147" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318010" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386013172">
+        <Response dialog="13680621263386013171" id="13680621263386013173" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1" emotion="15659330456346423977" />
+        <Response dialog="13680621263386013187" id="13680621263386013188" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1" emotion="3152439162748318060" />
+        <Response dialog="13680621263386013203" id="13680621263386013204" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="1" emotion="3152439162748318060" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386013224">
+        <Response dialog="13680621263386013223" id="13680621263386013225" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="15659330456346424000" />
+        <Response dialog="13680621263386013236" id="13680621263386013237" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318053" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386013417">
+        <Response dialog="13680621263386013416" id="13680621263386013418" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318010" />
+        <Response dialog="13680621263386013437" id="13680621263386013438" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+        <Response dialog="13680621263386013462" id="13680621263386013463" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318087" />
+    </ResponseSet>
+    <ResponseSet id="13680621263386023650">
+        <Response dialog="13680621263386023649" id="13680621263386023651" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+        <Response dialog="13680621263386023669" id="13680621263386023670" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" emotion="3152439162748318060" />
+    </ResponseSet>
+</ResponseRules>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResponseRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Ark/Dialog/DialogLogic/ResponseRules.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd">
+    <ResponseSet id="4349723564913701509">
+        <Response dialog="4349723564913701508" id="4349723564913701510" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564913701704">
+        <Response dialog="4349723564913701702" id="4349723564913701705" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay=".5" targetType="2" targetId="4349723564906961888" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564913701882">
+        <Response dialog="4349723564913701880" id="4349723564913701883" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay=".25" targetType="2" targetId="12889009724999010490" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564913702017">
+        <Response dialog="4349723564913702015" id="4349723564913702018" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay=".5" targetType="2" targetId="4349723564906961888" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="4349723564913702028">
+        <Response dialog="4349723564913702026" id="4349723564913702029" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" targetType="2" targetId="12889009724999010490" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385403427">
+        <Response dialog="13680621263385403425" id="13680621263385403428" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetType="2" targetId="4349723564906961888" speakerTrackMethod="1" targetTrackMethod="0" />
+    </ResponseSet>
+</ResponseRules>

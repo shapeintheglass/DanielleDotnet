@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResponseRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Ark/Dialog/DialogLogic/ResponseRules.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd" description="VO for the mini-museum in the lobby">
+    <ResponseSet id="13680621263365199815">
+        <Response dialog="13680621263392002680" id="13680621263365199816" cooldown="0" weight="1" oneshot="0" completeConversation="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263365199965">
+        <Response dialog="13680621263392002709" id="13680621263365199966" cooldown="0" weight="1" oneshot="0" completeConversation="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263365202403">
+        <Response dialog="13680621263392002729" id="13680621263365202404" cooldown="0" weight="1" oneshot="0" completeConversation="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263365202488">
+        <Response dialog="13680621263392002759" id="13680621263365202489" cooldown="0" weight="1" oneshot="0" completeConversation="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263365202516">
+        <Response dialog="13680621263392002768" id="13680621263365202517" cooldown="0" weight="1" oneshot="0" completeConversation="1" />
+    </ResponseSet>
+</ResponseRules>

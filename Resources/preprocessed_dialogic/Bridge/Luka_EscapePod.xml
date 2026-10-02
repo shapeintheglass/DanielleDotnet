@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResponseRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Ark/Dialog/DialogLogic/ResponseRules.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd" description="Luka has made his way to an escape pod near the Bridge. He is horribly wounded and can no longer walk. The escape pod did not launch, and he has rigged the inside with hidden explosives and tries to lure Morgan inside with him to detonate them.">
+    <ResponseSet id="4349723564928987019">
+        <Response dialog="4349723564928987018" id="4349723564928987020" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" emotion="15659330456346423977" />
+    </ResponseSet>
+    <ResponseSet id="4349723564928987271">
+        <Response dialog="4349723564928987270" id="4349723564928987272" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="1" targetTrackMethod="0" emotion="3152439162748318033" />
+    </ResponseSet>
+    <ResponseSet id="4349723564933138081">
+        <Response dialog="4349723564928987033" id="4349723564933138082" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" emotion="3152439162748318033" />
+        <Response dialog="4349723564928987049" id="4349723564933138098" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" emotion="3152439162748318033" />
+        <Response dialog="4349723564928987079" id="4349723564933138117" cooldown="0" weight="1" oneshot="true" completeConversation="1" delay="0" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" emotion="3152439162748318033" />
+    </ResponseSet>
+    <ResponseSet id="4349723564939011956">
+        <Response dialog="4349723564939011955" id="4349723564939011957" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0" cutoff="0" emotion="15659330456346423977" targetId="0" targetType="1" speakerTrackMethod="3" targetTrackMethod="0" />
+    </ResponseSet>
+</ResponseRules>

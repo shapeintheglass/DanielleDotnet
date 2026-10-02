@@ -14,8 +14,9 @@ internal class Program
         builder.Services.AddHostedService<RandomizerService>();
         builder.Services.Configure<Settings>(builder.Configuration);
         builder.Services.AddSingleton<BodyRandomizer>();
+        builder.Services.AddSingleton<VoiceRandomizer>();
         builder.Services.AddSingleton<ModConfigGenerator>();
-        builder.Services.AddSingleton<RandomGenerator>();
+        builder.Services.AddSingleton<RNG>();
         builder.Services.AddSingleton<FileManager>();
         builder.Services.AddLogging();
         var host = builder.Build();

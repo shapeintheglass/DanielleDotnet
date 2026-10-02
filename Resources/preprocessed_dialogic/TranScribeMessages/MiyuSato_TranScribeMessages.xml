@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResponseRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Ark/Dialog/DialogLogic/ResponseRules.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd" description="">
+    <ResponseSet id="13680621263360269448">
+        <Response dialog="13680621263359123288" id="13680621263360269449" cooldown="0" weight="1" oneshot="0" completeConversation="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269559">
+        <Response dialog="13680621263359123377" id="13680621263360269560" cooldown="0" weight="1" oneshot="0" completeConversation="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269606">
+        <Response dialog="13680621263359126287" id="13680621263360269607" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269719">
+        <Response dialog="13680621263359123389" id="13680621263360269720" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.5" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269731">
+        <Response dialog="13680621263359126299" id="13680621263360269732" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269755">
+        <Response dialog="13680621263359123390" id="13680621263360269756" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.5" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269777">
+        <Response dialog="13680621263359126314" id="13680621263360269778" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269797">
+        <Response dialog="13680621263359123391" id="13680621263360269798" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.5" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269823">
+        <Response dialog="13680621263359126322" id="13680621263360269824" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" cutoff="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269847">
+        <Response dialog="13680621263359123447" id="13680621263360269848" cooldown="0" weight="1" oneshot="0" completeConversation="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269871">
+        <Response dialog="13680621263359126346" id="13680621263360269872" cooldown="0" weight="1" oneshot="0" completeConversation="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263360269887">
+        <Response dialog="13680621263359123456" id="13680621263360269888" cooldown="0" weight="1" oneshot="0" completeConversation="1" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385325031">
+        <Response dialog="13680621263385325029" id="13680621263385325032" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="1.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385325051">
+        <Response dialog="13680621263385325049" id="13680621263385325052" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.5" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385325070">
+        <Response dialog="13680621263385325068" id="13680621263385325071" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385325075">
+        <Response dialog="13680621263385325073" id="13680621263385325076" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385325079">
+        <Response dialog="13680621263385325077" id="13680621263385325080" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0.5" />
+    </ResponseSet>
+</ResponseRules>

@@ -18,4 +18,8 @@
     <EmbeddedResource Include="Resources\*.json" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Resources\dialogic\" />
+  </ItemGroup>
+
 </Project>

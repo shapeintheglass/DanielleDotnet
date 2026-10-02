@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResponseRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Ark/Dialog/DialogLogic/ResponseRules.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd">
+    <ResponseSet id="13680621263401311606">
+        <Response dialog="13680621263401311605" id="13680621263401311607" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263401311625">
+        <Response dialog="13680621263401311623" id="13680621263401311626" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.6" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263401311680">
+        <Response dialog="13680621263401311678" id="13680621263401311681" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.6" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263401311716">
+        <Response dialog="13680621263401311714" id="13680621263401311717" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.5" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263401311734">
+        <Response dialog="13680621263401311732" id="13680621263401311735" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.5" cutoff="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263401311743">
+        <Response dialog="13680621263401311741" id="13680621263401311744" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0.75" cutoff="0" />
+    </ResponseSet>
+</ResponseRules>

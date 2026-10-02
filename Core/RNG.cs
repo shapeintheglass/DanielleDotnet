@@ -4,11 +4,11 @@ using Microsoft.Extensions.Options;
 
 namespace DanielleDotnet.Core;
 
-public class RandomGenerator
+public class RNG
 {
     private readonly string _seed;
 
-    public RandomGenerator(IOptions<Settings> s)
+    public RNG(IOptions<Settings> s)
     {
         _seed = s.Value.Seed ?? "";
     }

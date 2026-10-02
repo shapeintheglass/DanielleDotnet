@@ -5,13 +5,13 @@ namespace DanielleDotnet.Models.VoiceRandomization;
 public class ActorVoiceLines
 {
     [JsonPropertyName("actor_voice_lines")]
-    public List<VoiceLineMapping>? VoiceLines;
+    public VoiceLineMapping[]? VoiceLines { get; set; }
 }
 
 public class VoiceLineMapping
 {
     [JsonPropertyName("actor_id")]
-    public string? ActorId;
+    public string? ActorId { get; set; }
     [JsonPropertyName("voice_lines")]
-    public List<string>? VoiceLines;
+    public string[]? VoiceLines { get; set; }
 }

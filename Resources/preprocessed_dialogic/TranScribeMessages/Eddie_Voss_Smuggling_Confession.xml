@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResponseRules xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Ark/Dialog/DialogLogic/ResponseRules.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd" description="Eddie Voss from Cargo Bay leaves a confession that he has been stealing from TranStar and he outs his co-conspirators.">
+    <ResponseSet id="13680621263385135662">
+        <Response dialog="13680621263385135660" id="13680621263385135663" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385135671">
+        <Response dialog="13680621263385135669" id="13680621263385135672" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385135685">
+        <Response dialog="13680621263385135683" id="13680621263385135686" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385135698">
+        <Response dialog="13680621263385135696" id="13680621263385135699" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.5" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385135721">
+        <Response dialog="13680621263385135719" id="13680621263385135722" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385135730">
+        <Response dialog="13680621263385135728" id="13680621263385135731" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.6" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385135742">
+        <Response dialog="13680621263385135740" id="13680621263385135743" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.6" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385135748">
+        <Response dialog="13680621263385135746" id="13680621263385135749" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.25" />
+    </ResponseSet>
+    <ResponseSet id="13680621263385135754">
+        <Response dialog="13680621263385135752" id="13680621263385135755" cooldown="0" weight="1" oneshot="0" completeConversation="0" delay="0.6" />
+    </ResponseSet>
+    <ResponseSet id="13680621263401328076">
+        <Response dialog="13680621263401328074" id="13680621263401328077" cooldown="0" weight="1" oneshot="0" completeConversation="1" delay="0.25" cutoff="0" />
+    </ResponseSet>
+</ResponseRules>

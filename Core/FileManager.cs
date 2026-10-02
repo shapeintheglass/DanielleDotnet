@@ -38,7 +38,8 @@ public class FileManager
     }
 
     /**
-     * Copies contents of the temp mod folder to the finalized one
+     * Copies contents of the temp mod folder to the finalized one.
+     * Returns the number of files copied.
      */
     public async Task InstallTempFiles()
     {
@@ -59,14 +60,23 @@ public class FileManager
         Directory.CreateDirectory(dataDir);
         
         // Copy contents of temp folder to data folder
+        var count = 0;
         foreach (var filepath in Directory.EnumerateFiles(_tempModPath, "*", SearchOption.AllDirectories))
         {
-            var filename =  Path.GetFileName(filepath);
-            _logger.LogInformation("Installing " + filepath);
+            var filename =  Path.GetRelativePath(_tempModPath, filepath);
             await using var sourceStream = File.Open(filepath, FileMode.Open);
-            await using var destinationStream = File.Create(Path.Combine(dataDir, filename));
+            // Create directory if it does not exist
+            var newFilePath = Path.Combine(dataDir, filename);
+            var dirName = Path.GetDirectoryName(newFilePath);
+            if (!string.IsNullOrEmpty(dirName) && !Directory.Exists(dirName))
+            {
+                Directory.CreateDirectory(dirName);
+            }
+            await using var destinationStream = File.Create(newFilePath);
             await sourceStream.CopyToAsync(destinationStream);
+            count++;
         }
+        _logger.LogInformation("Copied {n} files to mod directory", count);
     }
 
     /**

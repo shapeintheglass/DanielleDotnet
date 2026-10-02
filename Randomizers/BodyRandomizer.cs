@@ -3,26 +3,26 @@ using System.Xml;
 using DanielleDotnet.Core;
 using DanielleDotnet.Models.BodyRandomization;
 using DanielleDotnet.Utils;
+using Microsoft.Extensions.Logging;
 
 namespace DanielleDotnet.Randomizers;
 
 // TODO: Update to be less cursed
-public class BodyRandomizer(FileManager fm, RandomGenerator rg)
+public class BodyRandomizer(FileManager fm, RNG rng, ILogger<BodyRandomizer> logger) : IRandomizer
 {
     private const string ChrParamsFormat = "Animations/Characters/Humans/Dialogue/{0}/{0}.chrparams";
     private static readonly string HumansFinalPath = Path.Combine("objects", "characters", "humansfinal");
     private static readonly string SourceHumansFinalFile = Path.Combine("resources", "preprocessed_npcbodies.json");
 
-    private readonly Random _r = rg.GetNewRandom();
+    private readonly Random _r = rng.GetNewRandom();
 
-    public async Task Randomize()
+    public async Task RandomizeAsync(CancellationToken ct)
     {
         var humansFinalFolder = Path.Combine(fm.GetTempModPath(), HumansFinalPath);
         Directory.CreateDirectory(humansFinalFolder);
 
-        // TODO: Verify resource file exists and maybe use more efficiently
         await using var openStream = File.OpenRead(SourceHumansFinalFile);
-        var bodies = await JsonSerializer.DeserializeAsync<Bodies>(openStream);
+        var bodies = await JsonSerializer.DeserializeAsync<Bodies>(openStream, cancellationToken: ct);
 
         if (bodies!.Body == null)
         {
@@ -31,8 +31,6 @@ public class BodyRandomizer(FileManager fm, RandomGenerator rg)
         foreach (var human in bodies.Body)
         {
             var fileToWrite = Path.Combine(humansFinalFolder, human.Name ?? "unknown.cdf");
-            Console.WriteLine($"Name: {human.Name}, Skeleton: {human.Skeleton}, ChrParams: {human.ChrParams}");
-            Console.WriteLine("Writing to " + fileToWrite);
             // Generate xml config
             XmlWriterSettings settings = new()
             {
