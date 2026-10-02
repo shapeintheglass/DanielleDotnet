@@ -84,11 +84,10 @@ public class BodyRandomizer(FileManager fm, RNG rng, ILogger<BodyRandomizer> log
             {
                 chrParams = string.Format(ChrParamsFormat, human.ChrParams);
             }
-
-
-            await using FileStream writeStream = File.OpenWrite(fileToWrite);
+            
+            await using var writeStream = File.OpenWrite(fileToWrite);
             writeStream.SetLength(0);
-            await using XmlWriter writer = XmlWriter.Create(writeStream, settings);
+            await using var writer = XmlWriter.Create(writeStream, settings);
             await writer.WriteStartElementAsync(null, "CharacterDefinition", null);
             await writer.WriteStartElementAsync(null, "Model", null);
             await writer.WriteAttributeStringAsync(null, "File", null, skeleton);
@@ -115,6 +114,7 @@ public class BodyRandomizer(FileManager fm, RNG rng, ILogger<BodyRandomizer> log
             await writer.WriteAttributeStringAsync(null, "Binding", null, bodyStr + ".skin");
             await writer.WriteAttributeStringAsync(null, "Material", null, bodyStr + ".mtl");
             await writer.WriteAttributeStringAsync(null, "Flags", null, "0");
+            await writer.WriteAttributeStringAsync(null, "SkinJointsOverrideSkeleton", null, "1");
             await writer.WriteEndElementAsync();
 
             // Head

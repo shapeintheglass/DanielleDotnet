@@ -16,7 +16,7 @@ public class RandomizerService(IHostApplicationLifetime lifetime,
         {
             List<IRandomizer> randomizers = [body, voice];
             var tasks = randomizers.Select(randomizer => Task.Run(() => randomizer.RandomizeAsync(ct), ct)).ToList();
-            await Task.WhenAll(tasks);
+            Task.WaitAll(tasks, ct);
             await fm.InstallTempFiles();
         }
         catch (Exception e)

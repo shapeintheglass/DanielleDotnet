@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <Folder Include="Resources\dialogic\" />
+    <Folder Include="Resources\preprocessed_moviedata\" />
   </ItemGroup>
 
 </Project>
