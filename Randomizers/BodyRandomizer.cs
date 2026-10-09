@@ -114,7 +114,7 @@ public class BodyRandomizer(FileManager fm, RNG rng, ILogger<BodyRandomizer> log
             await writer.WriteAttributeStringAsync(null, "Binding", null, bodyStr + ".skin");
             await writer.WriteAttributeStringAsync(null, "Material", null, bodyStr + ".mtl");
             await writer.WriteAttributeStringAsync(null, "Flags", null, "0");
-            await writer.WriteAttributeStringAsync(null, "SkinJointsOverrideSkeleton", null, "1");
+            //await writer.WriteAttributeStringAsync(null, "SkinJointsOverrideSkeleton", null, "1");
             await writer.WriteEndElementAsync();
 
             // Head

@@ -13,9 +13,11 @@ public class VoiceRandomizer(FileManager fm, RNG rng, ILogger<VoiceRandomizer> l
 {
     private static readonly string DialogicRelPath = Path.Combine("ark", "dialog", "dialoglogic");
     private static readonly string LevelRelPath = Path.Combine("levels", "campaign");
+    // TODO: Update subtitles for prerendered cutscenes to match new audio
+    private static readonly string BinkSubtitlesPath = Path.Combine("ark", "dialog", "binksubtitles");
     private static readonly string PreprocessedDialogIdsJson = Path.Combine("resources", "preprocessed_dialogids.json");
     private static readonly string PreprocessedModFilesXmlDir = Path.Combine("resources", "preprocessed_dialogic");
-    private static readonly string PreprocessedMovieDataXmlDir = Path.Combine("resources", "preprocessed_moviedata");
+    private static readonly string PreprocessedMovieDataXmlDir = Path.Combine("resources", "preprocessed_levels");
     private const string DialogPrefix = "dialog=\"";
     private const string EmotionPrefix = "emotion=\"";
     private const string MovieDataFileName = "moviedata.xml";

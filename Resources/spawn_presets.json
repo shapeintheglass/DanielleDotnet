@@ -1,0 +1,1062 @@
+{
+  "pickup_spawn_settings": [
+    {
+      "name": "No item randomization",
+      "desc": "Do not randomize items.",
+      "filters": []
+    },
+    {
+      "name": "Randomize items within type",
+      "desc": "Randomize items within their type. Weapons can become other weapons, fab plans can become other fab plans, etc. Does not spawn story items early or affect physics props.",
+      "filters": [
+        {
+          "input_tags": [
+            "Weapons"
+          ],
+          "output_tags": [
+            "Weapons"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "FabricationPlans"
+          ],
+          "output_tags": [
+            "FabricationPlans"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "Mods"
+          ],
+          "output_tags": [
+            "Mods",
+            "WeaponUpgradeKit"
+          ],
+          "output_weights": [
+            20,
+            1
+          ],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "Medical"
+          ],
+          "output_tags": [
+            "Medical",
+            "MedKit",
+            "PsiHypo"
+          ],
+          "output_weights": [
+            2,
+            1,
+            1
+          ],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "Ammo"
+          ],
+          "output_tags": [
+            "Ammo"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION",
+            "FabricationPlans"
+          ]
+        },
+        {
+          "input_tags": [
+            "Food"
+          ],
+          "output_tags": [
+            "Food"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "Ingredients"
+          ],
+          "output_tags": [
+            "Ingredients"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "RecyclerJunk"
+          ],
+          "output_tags": [
+            "RecyclerJunk"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Randomize all items (no early story items)",
+      "desc": "Randomizes all items. Does not spawn story items early (ex. Arming Keys), to avoid sequence breaking.",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkPickups",
+            "Neuromod_Calibration"
+          ],
+          "output_tags": [
+            "ZeroGSuit",
+            "Psychoscope",
+            "Stickynote_Mimic",
+            "FabricationPlans",
+            "WeaponUpgradeKit",
+            "SuitPatchKit",
+            "Mods",
+            "SpareParts",
+            "Medical",
+            "Neuromod",
+            "Ingredients",
+            "Weapons",
+            "Ammo",
+            "Food",
+            "RecyclerJunk"
+          ],
+          "output_weights": [
+            1,
+            1,
+            1,
+            25,
+            50,
+            50,
+            75,
+            75,
+            80,
+            80,
+            100,
+            100,
+            200,
+            300,
+            600
+          ],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Randomize all items",
+      "desc": "Has a chance of spawning story progression items early, which could lead to sequence breaking.",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkPickups",
+            "Neuromod_Calibration"
+          ],
+          "output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION",
+            "Stickynote_Mimic",
+            "FabricationPlans",
+            "WeaponUpgradeKit",
+            "SuitPatchKit",
+            "Medical",
+            "Mods",
+            "SpareParts",
+            "Neuromod",
+            "Ingredients",
+            "Weapons",
+            "Ammo",
+            "Food",
+            "RecyclerJunk"
+          ],
+          "output_weights": [
+            1,
+            1,
+            1,
+            1,
+            25,
+            50,
+            50,
+            75,
+            75,
+            75,
+            80,
+            100,
+            100,
+            200,
+            300,
+            600
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Whiskey and cigars",
+      "desc": "Replaces all items with whiskey and cigars. For nightly gatherings.",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkPickups",
+            "Neuromod_Calibration"
+          ],
+          "output_tags": [
+            "Bourbon",
+            "UsedCigar"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    },
+    {
+      "name": "All items are weapons",
+      "desc": "All items are weapons, neuromods, or ammo",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkPickups"
+          ],
+          "output_tags": [
+            "Weapons",
+            "Ammo",
+            "Neuromod",
+            "PsiHypo",
+            "MedKit",
+            "WeaponUpgradeKit"
+          ],
+          "output_weights": [
+            100,
+            75,
+            25,
+            10,
+            10,
+            10
+          ],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    }
+  ],
+  "prop_spawn_settings": [
+    {
+      "name": "No prop randomization",
+      "desc": "Do not randomize props.",
+      "filters": []
+    },
+    {
+      "name": "Randomize props within leverage tier",
+      "desc": "Randomizes within leverage requirement. Leverage 1 items can only become other leverage 1 items, and so on.",
+      "filters": [
+        {
+          "input_tags": [
+            "_LEVERAGE_I"
+          ],
+          "output_tags": [
+            "_LEVERAGE_I"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "_LEVERAGE_II"
+          ],
+          "output_tags": [
+            "_LEVERAGE_II"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "_LEVERAGE_III"
+          ],
+          "output_tags": [
+            "_LEVERAGE_III"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION"
+          ]
+        },
+        {
+          "input_tags": [
+            "_CARRYABLE"
+          ],
+          "output_tags": [
+            "_CARRYABLE"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "MissionItems",
+            "_PLOT_CRITICAL",
+            "_PROGRESSION",
+            "_LEVERAGE_I",
+            "_LEVERAGE_II",
+            "_LEVERAGE_III"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Randomize props within theme",
+      "desc": "Randomizes physics props within their general theme. Office props can become other office props, bathroom props can become other bathroom props, and so on.",
+      "filters": [
+        {
+          "input_tags": [
+            "Chairs"
+          ],
+          "output_tags": [
+            "Chairs"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Science"
+          ],
+          "output_tags": [
+            "Science"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Office"
+          ],
+          "output_tags": [
+            "Office"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Bathroom"
+          ],
+          "output_tags": [
+            "Bathroom"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Luxury"
+          ],
+          "output_tags": [
+            "Luxury"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Boxes-Crates"
+          ],
+          "output_tags": [
+            "Boxes-Crates"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Apartment"
+          ],
+          "output_tags": [
+            "Apartment"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Kitchen"
+          ],
+          "output_tags": [
+            "Kitchen"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Garden"
+          ],
+          "output_tags": [
+            "Garden"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Gym"
+          ],
+          "output_tags": [
+            "Gym"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    },
+    {
+      "name": "Randomize all props",
+      "desc": "Randomizes all props. Has a high chance of spawning large furniture in comical locations.",
+      "filters": [
+        {
+          "input_tags": [
+            "_LEVERAGE_I",
+            "_LEVERAGE_II",
+            "_LEVERAGE_III"
+          ],
+          "output_tags": [
+            "_LEVERAGE_I",
+            "_LEVERAGE_II",
+            "_LEVERAGE_III"
+          ],
+          "output_weights": [
+            3,
+            2,
+            1
+          ],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "_CARRYABLE"
+          ],
+          "output_tags": [
+            "_CARRYABLE"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [
+            "_LEVERAGE_I",
+            "_LEVERAGE_II",
+            "_LEVERAGE_III"
+          ],
+          "do_not_output_tags": [
+            "_LEVERAGE_I",
+            "_LEVERAGE_II",
+            "_LEVERAGE_III"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "All reployers",
+      "desc": "What do they do, anyway?",
+      "filters": [
+        {
+          "input_tags": [
+            "_CARRYABLE"
+          ],
+          "output_tags": [
+            "Reployer"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    },
+    {
+      "name": "Oops! All eels",
+      "desc": "I have a bad fEELing about this one.",
+      "filters": [
+        {
+          "input_tags": [
+            "_CARRYABLE"
+          ],
+          "output_tags": [
+            "ArkEel"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    },
+    {
+      "name": "All explosive canisters",
+      "desc": "All props are explosive canisters.",
+      "filters": [
+        {
+          "input_tags": [
+            "_CARRYABLE"
+          ],
+          "output_tags": [
+            "ExplosiveTanks"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    }
+  ],
+  "enemy_spawn_settings": [
+    {
+      "name": "No enemy randomization",
+      "desc": "Do not randomize enemies.",
+      "filters": []
+    },
+    {
+      "name": "Randomize enemies within type",
+      "desc": "Randomize enemies within their type. Easy enemies can become other easy enemies, tough enemies can become other tough enemies, etc.",
+      "filters": [
+        {
+          "input_tags": [
+            "Mimic",
+            "BasePhantom"
+          ],
+          "output_tags": [
+            "Mimic",
+            "BasePhantom"
+          ],
+          "output_weights": [
+            4,
+            1
+          ],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Operators\\Generic\\Corrupted",
+            "MilitaryOperator"
+          ],
+          "output_tags": [
+            "Operators\\Generic\\Corrupted",
+            "MilitaryOperator"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "EliteMimic",
+            "ArkPoltergeist"
+          ],
+          "output_tags": [
+            "EliteMimic",
+            "ArkPoltergeist"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "EthericPhantom",
+            "VoltaicPhantom",
+            "ThermalPhantom"
+          ],
+          "output_tags": [
+            "EthericPhantom",
+            "VoltaicPhantom",
+            "ThermalPhantom"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Overseers"
+          ],
+          "output_tags": [
+            "Overseers"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    },
+    {
+      "name": "Randomize all enemies",
+      "desc": "Randomizes all hostile typhon and robots.",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkNpcs",
+            "Operators\\Generic\\Corrupted",
+            "ArkOperatorMilitary"
+          ],
+          "output_tags": [
+            "ArkPoltergeist",
+            "ArkNightmare",
+            "MilitaryOperator",
+            "Overseers",
+            "BasePhantom",
+            "Operators\\Generic\\Corrupted",
+            "EliteMimic",
+            "Phantoms",
+            "Mimic"
+          ],
+          "output_weights": [
+            25,
+            25,
+            25,
+            50,
+            75,
+            75,
+            125,
+            170,
+            300
+          ],
+          "do_not_touch_tags": [
+            "Named Phantoms",
+            "ArkNightmare"
+          ],
+          "do_not_output_tags": [
+            "Named Phantoms"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Randomize all enemies (no nightmare)",
+      "desc": "Randomizes all hostile typhon and robots, but does not add the giant honker",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkNpcs",
+            "Operators\\Generic\\Corrupted",
+            "ArkOperatorMilitary"
+          ],
+          "output_tags": [
+            "ArkPoltergeist",
+            "MilitaryOperator",
+            "Overseers",
+            "BasePhantom",
+            "Operators\\Generic\\Corrupted",
+            "EliteMimic",
+            "Phantoms",
+            "Mimic"
+          ],
+          "output_weights": [
+            25,
+            25,
+            50,
+            75,
+            75,
+            125,
+            170,
+            300
+          ],
+          "do_not_touch_tags": [
+            "Named Phantoms",
+            "ArkNightmare"
+          ],
+          "do_not_output_tags": [
+            "Named Phantoms"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "All nightmares",
+      "desc": "Why would you pick this? Why would you think this is a good idea?",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkNpcs"
+          ],
+          "output_tags": [
+            "ArkNightmare"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    },
+    {
+      "name": "All mimics",
+      "desc": "All typhon are mimics.",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkNpcs"
+          ],
+          "output_tags": [
+            "Mimic"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    },
+    {
+      "name": "Typhon to humans",
+      "desc": "Replaces all typhon and hostile operators with humans",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkBeta_ArgentenoPero"
+          ],
+          "output_tags": [
+            "Gustav Leitner"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_CliveLawrence"
+          ],
+          "output_tags": [
+            "Clive Lawrence"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_CrispinBoyer"
+          ],
+          "output_tags": [
+            "Crispin Boyer"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_EnochKouneva"
+          ],
+          "output_tags": [
+            "Enoch Kouneva"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_GarfieldLangley"
+          ],
+          "output_tags": [
+            "CinematicCharacter_GarfieldLangley"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_HelenCombs"
+          ],
+          "output_tags": [
+            "Helen Croft"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_IvyPark"
+          ],
+          "output_tags": [
+            "Ivy Park"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_JeanFaure"
+          ],
+          "output_tags": [
+            "Jean Faure"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_JorgenThorstein"
+          ],
+          "output_tags": [
+            "Jorgen Thorstien"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_KirkRemmer"
+          ],
+          "output_tags": [
+            "KirkRemmer"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_LaneCarpenter"
+          ],
+          "output_tags": [
+            "Lane Carpenter"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_LawrenceBaxter"
+          ],
+          "output_tags": [
+            "Lawrence Baxter"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_MaliahFowles"
+          ],
+          "output_tags": [
+            "Maliah Fowles"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_NicoleHague"
+          ],
+          "output_tags": [
+            "Kevin Hague "
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkBeta_ReginaSellers"
+          ],
+          "output_tags": [
+            "Regina Sellers"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Etheric_RandolfHutchinson"
+          ],
+          "output_tags": [
+            "Randolf Hutchinson"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "ArkNpcs",
+            "Operators\\Generic\\Corrupted",
+            "ArkOperatorMilitary"
+          ],
+          "output_tags": [
+            "ArkHumans"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": [
+            "Player",
+            "HumanPlaceholders",
+            "Commander Dahl",
+            "Commander Dahl_Unarmed",
+            "CinematicCharacters",
+            "_ArkHumanScientistFemale",
+            "_ArkHumanScientist",
+            "_ArkHumanEngineer",
+            "_ArkHumanEngineerFemale",
+            "_ArkHumanAdmin",
+            "_ArkHumanAdminFemale",
+            "_ArkHumanSecurity",
+            "_ArkHumanSecurityFemale",
+            "_ArkHumanVolunteer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "All Dahl",
+      "desc": "Replaces all typhon and corrupted operators with Dahl",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkNpcs",
+            "Operators\\Generic\\Corrupted"
+          ],
+          "output_tags": [
+            "Commander Dahl"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    },
+    {
+      "name": "All Simmons",
+      "desc": "Only the enlightened will understand.",
+      "filters": [
+        {
+          "input_tags": [
+            "ArkNpcs",
+            "Operators\\Generic\\Corrupted"
+          ],
+          "output_tags": [
+            "MarcoSimmons"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    }
+  ],
+  "npc_spawn_settings": [
+    {
+      "name": "No friendly robot randomization",
+      "desc": "Do not randomize friendly robots.",
+      "filters": []
+    },
+    {
+      "name": "Randomize friendly robots within type",
+      "desc": "Randomize friendly robots within their type, i.e. operators can become other operators, and turrets can become other turrets.",
+      "filters": [
+        {
+          "input_tags": [
+            "EngineeringOperator",
+            "MedicalOperator",
+            "ScienceOperator"
+          ],
+          "output_tags": [
+            "EngineeringOperator",
+            "MedicalOperator",
+            "ScienceOperator"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        },
+        {
+          "input_tags": [
+            "Turrets"
+          ],
+          "output_tags": [
+            "Turrets"
+          ],
+          "output_weights": [],
+          "do_not_touch_tags": [],
+          "do_not_output_tags": []
+        }
+      ]
+    }
+  ]
+}

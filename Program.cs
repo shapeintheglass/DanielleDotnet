@@ -15,6 +15,7 @@ internal class Program
         builder.Services.Configure<Settings>(builder.Configuration);
         builder.Services.AddSingleton<BodyRandomizer>();
         builder.Services.AddSingleton<VoiceRandomizer>();
+        builder.Services.AddSingleton<LevelRandomizer>();
         builder.Services.AddSingleton<ModConfigGenerator>();
         builder.Services.AddSingleton<RNG>();
         builder.Services.AddSingleton<FileManager>();
