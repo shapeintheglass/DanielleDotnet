@@ -1,11 +1,13 @@
 ﻿using System.Collections.Immutable;
 using System.Xml;
+using System.Xml.Linq;
 using DanielleDotnet.Core;
+using DanielleDotnet.Randomizers.Filters;
 using Microsoft.Extensions.Logging;
 
 namespace DanielleDotnet.Randomizers;
 
-public class LevelRandomizer(FileManager fm, RNG rng, ILogger<LevelRandomizer> logger) : IRandomizer
+public class LevelRandomizer : IRandomizer
 {
     private static readonly string LevelFilesResourcePath = Path.Combine("resources", "preprocessed_levels");
     private const string LevelFileDir = "level";
@@ -28,77 +30,61 @@ public class LevelRandomizer(FileManager fm, RNG rng, ILogger<LevelRandomizer> l
         Path.Combine("station", "exterior")
     ];
     
-    private readonly Random _r = rng.GetNewRandom();
+    private readonly FileManager _fm;
+    private readonly ILogger<LevelRandomizer> _logger;
+    private readonly RNG _rng;
+    private List<IFilter> _filters;
+
+    public LevelRandomizer(FileManager fm, RNG rng, ILogger<LevelRandomizer> logger, ArchetypeSwapFilter archetypeSwapFilter)
+    {
+        _fm = fm;
+        _logger = logger;
+        _rng = rng;
+        _filters = [archetypeSwapFilter];
+    }
 
     public async Task RandomizeAsync(CancellationToken ct)
     {
-        var outputPath = Path.Combine(fm.GetTempModPath(), "levels", "campaign");
-        foreach (var levelFile in LevelFiles)
-        {
-            // Ex. research/simulationlabs/level/mission_mission0.xml
-            var relPath = Path.Combine(levelFile, LevelFileDir, LevelFileName);
-            // Ex. resources/preprocessed_levels/research/simulationlabs/level/mission_mission0.xml
-            var pathToLevelFile = Path.Combine(LevelFilesResourcePath, relPath);
-            // Ex. temp_dir/levels/campaign/research/simulationlabs/level/mission_mission0.xml
-            var pathToOutputFile = Path.Combine(outputPath, relPath);
-            logger.LogInformation($"Randomizing level file {pathToLevelFile} to {pathToOutputFile}");
-            await RandomizeLevelFile(pathToLevelFile, pathToOutputFile, ct);
-        }
+        var tasks = LevelFiles.Select(levelFile => RandomizeLevelFile(levelFile, ct)).ToList();
+        await Task.WhenAll(tasks);
     }
 
-    private async Task RandomizeLevelFile(string inFile, string outFile, CancellationToken ct)
+    private async Task RandomizeLevelFile(string levelFile, CancellationToken ct)
     {
-        if (!File.Exists(inFile))
+        var r = _rng.GetNewRandom();
+        var outputPath = Path.Combine(_fm.GetTempModPath(), "levels", "campaign");
+        // Ex. research/simulationlabs/level/mission_mission0.xml
+        var relPath = Path.Combine(levelFile, LevelFileDir, LevelFileName);
+        // Ex. resources/preprocessed_levels/research/simulationlabs/level/mission_mission0.xml
+        var pathToLevelFile = Path.Combine(LevelFilesResourcePath, relPath);
+        // Ex. temp_dir/levels/campaign/research/simulationlabs/level/mission_mission0.xml
+        var pathToOutputFile = Path.Combine(outputPath, relPath);
+        
+        if (!File.Exists(pathToLevelFile))
         {
-            logger.LogError($"File {inFile} not found");
+            _logger.LogError($"File {pathToLevelFile} not found");
             return;
         }
-        var dir = Path.GetDirectoryName(outFile);
+        var dir = Path.GetDirectoryName(pathToOutputFile);
         if (dir != null && !Directory.Exists(dir))
         {
             Directory.CreateDirectory(dir);
         }
 
-        await using var inputStream = File.OpenRead(inFile);
-        await using var outputStream = File.OpenWrite(outFile);
+        await using var inputStream = File.OpenRead(pathToLevelFile);
+        await using var outputStream = File.OpenWrite(pathToOutputFile);
         using var reader = XmlReader.Create(inputStream, new XmlReaderSettings { Async = true });
         await using var writer = XmlWriter.Create(outputStream, new XmlWriterSettings{ Async = true, Indent = false });
 
-        while (await reader.ReadAsync())
+        var inputTree = await XElement.LoadAsync(reader, LoadOptions.None, ct);
+        foreach (var e in inputTree.DescendantsAndSelf())
         {
-            switch (reader.NodeType)
+            foreach (var filter in _filters)
             {
-                case XmlNodeType.Element:
-                    var nodeName = reader.LocalName;
-                    await writer.WriteStartElementAsync(reader.Prefix, reader.LocalName, reader.NamespaceURI);
-                    while (reader.MoveToNextAttribute())
-                    {
-                        var value = reader.Value;
-                        if (nodeName == "Entity" && reader.LocalName == "Archetype")
-                        {
-                            logger.LogInformation(value);
-                            value = "ArkPhysicsProps.Misc.Eel";
-                        }
-                        await writer.WriteAttributeStringAsync(reader.Prefix, reader.LocalName, reader.NamespaceURI, value);
-                    }
-                    reader.MoveToElement();
-
-                    if (reader.IsEmptyElement)
-                    {
-                        await writer.WriteEndElementAsync();
-                    }
-                    break;
-                case XmlNodeType.EndElement:
-                    await writer.WriteEndElementAsync();
-                    break;
-                case XmlNodeType.Text:
-                    await writer.WriteStringAsync(reader.Value);
-                    break;
-                case XmlNodeType.Whitespace:
-                case XmlNodeType.SignificantWhitespace:
-                    await writer.WriteWhitespaceAsync(reader.Value);
-                    break;
+                filter.Apply(e, r, levelFile);
             }
         }
+
+        await inputTree.WriteToAsync(writer, ct);
     }
 }

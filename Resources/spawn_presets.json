@@ -1,11 +1,90 @@
 {
+  "global_spawn_settings": {
+    "do_not_touch_entity_tags": [
+      "COMMENT: Items/Props corresponding to tags here will not be randomized",
+      "ArkExplosiveTank",
+      "ArkContainer",
+      "ArkFruitTree",
+      "ArkLight",
+      "Data",
+      "Light_Fixtures",
+      "MissionItems",
+      "NB_OxygenFuse",
+      "TurretFabPlan",
+      "_PLOT_CRITICAL",
+      "_PROGRESSION",
+      "COMMENT: Breakable statue in Alex's office - He'll respond if you break it",
+      "executive/arboretum;Office.Desk_Plant2",
+      "COMMENT: Patricia Varma's wrench - If this is gone, the player is likely softlocked in the starting apartment",
+      "research/simulationlabs;Weapons.Wrench1"
+    ],
+    "do_not_output_entity_tags": [
+      "COMMENT: Items/Props corresponding to tags here will not be created by the randomizer",
+      "Architecture",
+      "ArkContainer",
+      "DoubleWrench",
+      "ExplosiveTank_Dynamic",
+      "Gameplay",
+      "Industrial",
+      "Light_Fixtures",
+      "MedKit_Wall_Mounted",
+      "Mimic_Placeholder",
+      "OperatorGrenade",
+      "ShotgunPreorderFabPlan",
+      "Shotgun_Golden",
+      "Space",
+      "Static_ArkLights"
+    ],
+    "do_not_touch_npc_tags": [
+      "COMMENT: NPCs corresponding to tags here will not be randomized",
+      "COMMENT: Prevent named operators from being randomized",
+      "Operators\\Named",
+      "Kaspar",
+      "MilitaryOperatorCopycat",
+      "COMMENT: Psychotronics weavers - Prevent softlock at live extraction.",
+      "research/psychotronics;ArkNpcSpawner_Weaver6",
+      "research/psychotronics;ArkNpcSpawner_Weaver2",
+      "research/psychotronics;ArkNpcSpawner_Weaver4",
+      "COMMENT: Greenhouse telepath - Prevent softlock for associated sidequest",
+      "executive/arboretum;ArkNpcSpawner_Telepath1",
+      "executive/arboretum;Spawner_GreenhouseTelepath",
+      "COMMENT: Crew quarters telepaths - Prevent softlock for associated sidequest", 
+      "executive/crewfacilities;ArkNpcSpawner16",
+      "executive/crewfacilities;ArkNpcSpawner_Telepath2",
+      "COMMENT: Trevor Mahoney's telepath - Probably wouldn't softlock anything, just staying on the safe side",
+      "station/exterior;ArkNpcSpawner_Telepath4",
+      "COMMENT: Life support telepath - Prevent possible softlock for Dahl's sidequest",
+      "engineering/lifesupport;ArkNpcSpawner_Telepath1",
+      "COMMENT: Life support technopath - Prevent softlock when going to power plant",
+      "FakeTechnopath",
+      "engineering/lifesupport;ArkNpcSpawner_Technopath1",
+      "COMMENT: Cargo bay weavers - Prevent a couple softlocks for the survivor sidequest",
+      "engineering/cargobay;ArkNpcSpawner_Weaver3",
+      "engineering/cargobay;ArkNpcSpawner_Weaver",
+      "engineering/cargobay;ArkNpcSpawner_Weaver5",
+      "COMMENT: Lift technopath and phantom - Prevent lift-related softlocks",
+      "research/lobby;ArkNpcSpawner_Technopath1",
+      "research/lobby;ArkNpcSpawner_BasePhantom5"
+    ],
+    "do_not_output_npc_tags": [
+      "COMMENT: NPCs corresponding to tags here will not be spawned by the randomizer",
+      "COMMENT: Sitting duck technopath",
+      "FakeTechnopath",
+      "COMMENT: Tentacles are essentially unkillable and not as fun to encounter",
+      "Tentacle_Large_Guard",
+      "Tentacle_Medium_Guard",
+      "Tentacle_Small_Guard"
+    ]
+  },
   "pickup_spawn_settings": [
     {
+      "id": "pickups_no_rando",
       "name": "No item randomization",
       "desc": "Do not randomize items.",
       "filters": []
     },
     {
+      "id": "pickups_by_type",
       "name": "Randomize items within type",
       "desc": "Randomize items within their type. Weapons can become other weapons, fab plans can become other fab plans, etc. Does not spawn story items early or affect physics props.",
       "filters": [
@@ -143,6 +222,7 @@
       ]
     },
     {
+      "id": "pickups_all_no_seq_break",
       "name": "Randomize all items (no early story items)",
       "desc": "Randomizes all items. Does not spawn story items early (ex. Arming Keys), to avoid sequence breaking.",
       "filters": [
@@ -194,6 +274,7 @@
       ]
     },
     {
+      "id": "pickups_all",
       "name": "Randomize all items",
       "desc": "Has a chance of spawning story progression items early, which could lead to sequence breaking.",
       "filters": [
@@ -242,6 +323,7 @@
       ]
     },
     {
+      "id": "pickups_whiskey_and_cigars",
       "name": "Whiskey and cigars",
       "desc": "Replaces all items with whiskey and cigars. For nightly gatherings.",
       "filters": [
@@ -261,6 +343,7 @@
       ]
     },
     {
+      "id": "pickups_just_weapons",
       "name": "All items are weapons",
       "desc": "All items are weapons, neuromods, or ammo",
       "filters": [
@@ -292,11 +375,13 @@
   ],
   "prop_spawn_settings": [
     {
+      "id": "props_no_rando",
       "name": "No prop randomization",
       "desc": "Do not randomize props.",
       "filters": []
     },
     {
+      "id": "props_by_lev_tier",
       "name": "Randomize props within leverage tier",
       "desc": "Randomizes within leverage requirement. Leverage 1 items can only become other leverage 1 items, and so on.",
       "filters": [
@@ -366,6 +451,7 @@
       ]
     },
     {
+      "id": "props_by_theme",
       "name": "Randomize props within theme",
       "desc": "Randomizes physics props within their general theme. Office props can become other office props, bathroom props can become other bathroom props, and so on.",
       "filters": [
@@ -482,6 +568,7 @@
       ]
     },
     {
+      "id": "props_all",
       "name": "Randomize all props",
       "desc": "Randomizes all props. Has a high chance of spawning large furniture in comical locations.",
       "filters": [
@@ -526,6 +613,7 @@
       ]
     },
     {
+      "id": "props_just_reployers",
       "name": "All reployers",
       "desc": "What do they do, anyway?",
       "filters": [
@@ -543,6 +631,7 @@
       ]
     },
     {
+      "id": "props_just_eels",
       "name": "Oops! All eels",
       "desc": "I have a bad fEELing about this one.",
       "filters": [
@@ -560,6 +649,7 @@
       ]
     },
     {
+      "id": "props_just_explosives",
       "name": "All explosive canisters",
       "desc": "All props are explosive canisters.",
       "filters": [
@@ -579,11 +669,13 @@
   ],
   "enemy_spawn_settings": [
     {
+      "id": "enemies_no_rando",
       "name": "No enemy randomization",
       "desc": "Do not randomize enemies.",
       "filters": []
     },
     {
+      "id": "enemies_by_type",
       "name": "Randomize enemies within type",
       "desc": "Randomize enemies within their type. Easy enemies can become other easy enemies, tough enemies can become other tough enemies, etc.",
       "filters": [
@@ -658,8 +750,9 @@
       ]
     },
     {
+      "id": "enemies_all",
       "name": "Randomize all enemies",
-      "desc": "Randomizes all hostile typhon and robots.",
+      "desc": "Randomizes all hostile typhon and robots, and may spawn additional nightmares.",
       "filters": [
         {
           "input_tags": [
@@ -700,8 +793,9 @@
       ]
     },
     {
+      "id": "enemies_all_no_nightmare",
       "name": "Randomize all enemies (no nightmare)",
-      "desc": "Randomizes all hostile typhon and robots, but does not add the giant honker",
+      "desc": "Randomizes all hostile typhon and robots, but does not spawn additional nightmares",
       "filters": [
         {
           "input_tags": [
@@ -740,8 +834,9 @@
       ]
     },
     {
+      "id": "enemies_just_nightmare",
       "name": "All nightmares",
-      "desc": "Why would you pick this? Why would you think this is a good idea?",
+      "desc": "If you can actually beat the game like this, you're either a speedrunner or a god.",
       "filters": [
         {
           "input_tags": [
@@ -757,6 +852,7 @@
       ]
     },
     {
+      "id": "enemies_just_mimics",
       "name": "All mimics",
       "desc": "All typhon are mimics.",
       "filters": [
@@ -774,6 +870,7 @@
       ]
     },
     {
+      "id": "enemies_typhon_to_human",
       "name": "Typhon to humans",
       "desc": "Replaces all typhon and hostile operators with humans",
       "filters": [
@@ -984,6 +1081,7 @@
       ]
     },
     {
+      "id": "enemies_just_dahl",
       "name": "All Dahl",
       "desc": "Replaces all typhon and corrupted operators with Dahl",
       "filters": [
@@ -1002,6 +1100,7 @@
       ]
     },
     {
+      "id": "enemies_just_simmons",
       "name": "All Simmons",
       "desc": "Only the enlightened will understand.",
       "filters": [
@@ -1022,11 +1121,13 @@
   ],
   "npc_spawn_settings": [
     {
+      "id": "robots_no_rando",
       "name": "No friendly robot randomization",
       "desc": "Do not randomize friendly robots.",
       "filters": []
     },
     {
+      "id": "robots_by_type",
       "name": "Randomize friendly robots within type",
       "desc": "Randomize friendly robots within their type, i.e. operators can become other operators, and turrets can become other turrets.",
       "filters": [
