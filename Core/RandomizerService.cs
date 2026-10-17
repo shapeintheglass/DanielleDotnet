@@ -7,14 +7,15 @@ namespace DanielleDotnet.Core;
 
 public class RandomizerService(IHostApplicationLifetime lifetime,
     ILogger<RandomizerService> logger, FileManager fm,
-    BodyRandomizer body, VoiceRandomizer voice, LevelRandomizer level) : IHostedService
+    BodyRandomizer body, VoiceRandomizer voice, LevelRandomizer level,
+    FruitTreeRandomizer fruitTree) : IHostedService
 {
     public async Task StartAsync(CancellationToken ct)
     {
         var timestamp = Stopwatch.GetTimestamp();
         try
         {
-            List<IRandomizer> randomizers = [body, voice, level];
+            List<IRandomizer> randomizers = [body, voice, level, fruitTree];
             var tasks = randomizers.Select(randomizer => Task.Run(() => randomizer.RandomizeAsync(ct), ct)).ToList();
             Task.WaitAll(tasks, ct);
             await fm.InstallTempFiles();

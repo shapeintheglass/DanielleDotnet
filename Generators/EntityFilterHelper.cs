@@ -12,21 +12,21 @@ public class EntityFilterHelper
 {
     private static readonly Dictionary<string, List<string>> TagsToRandomClass = new()
     {
-        { "Ingredients", ["ArkPickups.Crafting.Ingredients.Random"] },
-        { "Food", ["ArkPickups.Food.Random"] },
-        { "RecyclerJunk", ["ArkPickups.Crafting.RecyclerJunk.Random"] },
-        { "Mods", ["ArkPickups.Mods.Psychoscope.Random", "ArkPickups.Mods.Suit.Random"] },
+        { "ingredients", ["arkpickups.crafting.ingredients.random"] },
+        { "food", ["arkpickups.food.random"] },
+        { "recyclerjunk", ["arkpickups.crafting.recyclerjunk.random"] },
+        { "mods", ["arkpickups.mods.psychoscope.random", "arkpickups.mods.suit.random"] },
         {
-            "FabricationPlans", [
-                "ArkPickups.Crafting.FabricationPlans.Ammo.Random",
-                "ArkPickups.Crafting.FabricationPlans.Weapon.Random",
-                "ArkPickups.Crafting.FabricationPlans.Charge.Random",
-                "ArkPickups.Crafting.FabricationPlans.SuitMaint.Random",
-                "ArkPickups.Crafting.FabricationPlans.Pharma.Random"
+            "fabricationplans", [
+                "arkpickups.crafting.fabricationplans.ammo.random",
+                "arkpickups.crafting.fabricationplans.weapon.random",
+                "arkpickups.crafting.fabricationplans.charge.random",
+                "arkpickups.crafting.fabricationplans.suitmaint.random",
+                "arkpickups.crafting.fabricationplans.pharma.random"
             ]
         },
-        { "Alcohol", ["ArkPickups.Food.Alcohol.Random"] },
-        { "TraumaPharmas", ["ArkPickups.Medical.TraumaPharmas.Random"] }
+        { "alcohol", ["arkpickups.food.alcohol.random"] },
+        { "traumapharmas", ["arkpickups.medical.traumapharmas.random"] }
     };
 
     // Used for fabrication plan randomization
@@ -149,11 +149,28 @@ public class EntityFilterHelper
                 tag = RNG.GetRandomFromList(r, availableTags);
             }
             
-            var availableEntities = f.AvailableTagsToEntities[tag];
-            if (availableEntities.Count != 0)
+            // If there is already in-game randomization support for this tag, use it
+            if (TagsToRandomClass.TryGetValue(tag, out var supportedRandomEntities))
             {
-                return RNG.GetRandomFromList(r, f.AvailableTagsToEntities[tag]);   
+                // Special handling for fabrication plans
+                if (tag == "fabricationplans")
+                {
+                    return RNG.GetRandomFromListWeighted(r, supportedRandomEntities, RandomFabPlanWeights);
+                }
+                else
+                {
+                    return RNG.GetRandomFromList(r, supportedRandomEntities);
+                }
             }
+            else
+            {
+                var availableEntities = f.AvailableTagsToEntities[tag];
+                if (availableEntities.Count != 0)
+                {
+                    return RNG.GetRandomFromList(r, f.AvailableTagsToEntities[tag]);   
+                }
+            }
+
             // Fall-through: Do not randomize if we get a tag for which there are no valid entities
             // TODO: Consider re-rolling?
             _logger.LogWarning("Could not find replacement entity for " + fullLevelFileName);

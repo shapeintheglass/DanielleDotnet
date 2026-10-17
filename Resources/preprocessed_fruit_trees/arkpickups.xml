@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<EntityPrototypeLibrary xmlns="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Libs/EntityArchetypes/EntityPrototypeLibrary.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd" Name="ArkPickups">
+    <EntityPrototype Name="Player.Neuromod_Case" Id="{3E495072-4EAC-4C39-B7EC-A2E1951C41F6}" Library="ArkPickups" Class="ArkFruitTree" Description="" ArchetypeId="10739735956144611989">
+        <Properties object_Model="Objects/Environment/Props/Gameplay/Neuromod_Case_A/neuromod_case_a.cgf">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="helper_spawnpoint" nNumberOfHelpers="4" archetype_PickupToSpawn="ArkPickups.Player.Neuromod" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="2" CastSunShadowMinSpec="8" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="0" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Player.O2Bottle_Wall_Mounted" Id="{48FD6FCF-8A6A-47A8-9CFD-BE45A737A003}" Library="ArkPickups" Class="ArkFruitTree" Description="" ArchetypeId="10739735956144612021">
+        <Properties object_Model="objects/pickups/o2bottle/o2_bottle_wallmount.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="Helper_O2Tank" nNumberOfHelpers="1" archetype_PickupToSpawn="ArkGameplayArchitecture.ExplosiveTanks.OxygenBottle" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="2" CastSunShadowMinSpec="8" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="50" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Medical.MedKit_Wall_Mounted" Id="{E6521FA1-A586-4432-9FBD-15D888EC720E}" Library="ArkPickups" Class="ArkFruitTree" Description="" ArchetypeId="10739735956144612022">
+        <Properties object_Model="objects/environment/props/gameplay/medkit_wallmount_a/medkit_wallmount_a.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="Helper_MedKit" nNumberOfHelpers="1" archetype_PickupToSpawn="ArkPickups.Medical.MedKit" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="2" CastSunShadowMinSpec="8" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="40" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Player.Neuromod_Calibration" Id="{19252AB2-3E52-4851-BC6B-43AB5BB3EF80}" Library="ArkPickups" Class="ArkFruitTree" Description="" ArchetypeId="10739735956144612026">
+        <Properties object_Model="objects/environment/props/tech/neuromodcalibration_a/neuromodcalibration_a_large.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="helper_neuromod" nNumberOfHelpers="1" archetype_PickupToSpawn="ArkPickups.Player.Neuromod" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="2" CastSunShadowMinSpec="8" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="0" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    </EntityPrototypeLibrary>

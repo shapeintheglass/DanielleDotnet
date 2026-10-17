@@ -28,5 +28,9 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Resources\preprocessed_fruit_trees\" />
+  </ItemGroup>
+
 
 </Project>

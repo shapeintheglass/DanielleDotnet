@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<EntityPrototypeLibrary xmlns="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://thelivingdiamond.github.io/Chairloader/Xsd/Prey https://thelivingdiamond.github.io/Chairloader/Xsd/Prey/Libs/EntityArchetypes/EntityPrototypeLibrary.xsd https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader https://thelivingdiamond.github.io/Chairloader/Xsd/Chairloader/MetaAttributes.xsd" Name="ArkGameplayArchitecture">
+    <EntityPrototype Name="Plants.Tree_Lemon_A" Id="{FDF117EF-1B37-4D1D-B28B-F451083EB7A1}" Library="ArkGameplayArchitecture" Class="ArkFruitTree" Description="" ArchetypeId="10396455764390116220">
+        <Properties object_Model="objects/environment/props/plants/tree_lemon_a/tree_lemon_a.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="helper_spawnpoint" nNumberOfHelpers="3" archetype_PickupToSpawn="ArkPickups.Food.Produce.Lemon" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="0" CastSunShadowMinSpec="3" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="20" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Plants.Bush_Tomato_A1" Id="{1D299AB1-86E5-4331-8AC3-D54C5DE95490}" Library="ArkGameplayArchitecture" Class="ArkFruitTree" Description="" ArchetypeId="10396455764390116222">
+        <Properties object_Model="objects/environment/props/plants/bush_tomato_a/bush_tomato_a.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="helper_spawnpoint" nNumberOfHelpers="1" archetype_PickupToSpawn="ArkPickups.Food.Produce.Tomato" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="0" CastSunShadowMinSpec="3" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="20" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Plants.Bush_Tomato_A2" Id="{52F416F9-5845-42B7-998A-11A738BBAB93}" Library="ArkGameplayArchitecture" Class="ArkFruitTree" Description="" ArchetypeId="10396455764390116223">
+        <Properties object_Model="objects/environment/props/plants/bush_tomato_a/bush_tomato_a2.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="helper_spawnpoint" nNumberOfHelpers="1" archetype_PickupToSpawn="ArkPickups.Food.Produce.Tomato" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="0" CastSunShadowMinSpec="3" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="20" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Plants.Bush_Tomato_A3" Id="{11737B79-7E0B-49C0-AF57-10FC142EEEEC}" Library="ArkGameplayArchitecture" Class="ArkFruitTree" Description="" ArchetypeId="10396455764390116224">
+        <Properties object_Model="objects/environment/props/plants/bush_tomato_a/bush_tomato_a3.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="helper_spawnpoint" nNumberOfHelpers="1" archetype_PickupToSpawn="ArkPickups.Food.Produce.Tomato" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="0" CastSunShadowMinSpec="3" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="20" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Plants.Bush_Super_Fruit" Id="{BBD3EA37-8218-43FF-83EB-AA299BE241AA}" Library="ArkGameplayArchitecture" Class="ArkFruitTree" Description="" ArchetypeId="10396455764390116241">
+        <Properties object_Model="objects/environment/props/plants/bush_tomato_a/bush_tomato_a.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="helper_spawnpoint" nNumberOfHelpers="1" archetype_PickupToSpawn="ArkGameplayObjects.Special.GrowingSuperFruit" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="0" CastSunShadowMinSpec="3" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="20" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Plants.Tree_Pomegranate_A" Id="{68360BDF-E3D4-43A2-A1E6-7D412AA7EBC5}" Library="ArkGameplayArchitecture" Class="ArkFruitTree" Description="" ArchetypeId="10396455764390116242">
+        <Properties object_Model="objects/environment/props/plants/tree_fruit_pomegranate_a/tree_fruit_pomegranate_a.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="1" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="helper_spawnpoint" nNumberOfHelpers="3" archetype_PickupToSpawn="ArkPickups.Food.Produce.BluePomegranate" />
+                <SpawnOption_2 sHelperNamePrefix="" nNumberOfHelpers="1" archetype_PickupToSpawn="" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="0" CastSunShadowMinSpec="3" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="20" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="GunSafe.GunSafe_A" Id="{F90EA5DB-5F92-40A7-AC88-A948975E623F}" Library="ArkGameplayArchitecture" Class="ArkFruitTree" Description="" ArchetypeId="10396455764390116260">
+        <Properties object_Model="objects/environment/props/gameplay/gunsafe_a/gunsafe_a_open.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="Helper_Shotgun" nNumberOfHelpers="4" archetype_PickupToSpawn="ArkPickups.Weapons.Shotgun" />
+                <SpawnOption_2 sHelperNamePrefix="Helper_Pistol" nNumberOfHelpers="3" archetype_PickupToSpawn="ArkPickups.Weapons.Pistol" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="0" CastSunShadowMinSpec="3" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="20" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    <EntityPrototype Name="Vending_Machines.Vending_Drinks_A" Id="{17E91D2B-5DD4-49F4-83A8-D88F07753086}" Library="ArkGameplayArchitecture" Class="ArkFruitTree" Description="" ArchetypeId="13038346798787428587">
+        <Properties object_Model="objects/environment/props/gameplay/coffeemachine_a/coffeemachine_a.cga">
+            <Physics Density="-1" Mass="-1" bPhysicalize="1" bPushableByAI="0" bPushableByPlayers="0" bRigidBody="0">
+                <CollisionFiltering>
+                    <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                    <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_breakable="0" bT_gcc_coral="0" bT_gcc_goo="0" bT_gcc_permeable="0" bT_gcc_permeable_to_AOE="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_projectile="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_smokeform="0" bT_gcc_transparent="0" bT_gcc_unclimbable="0" bT_gcc_vehicle="0" />
+                </CollisionFiltering>
+            </Physics>
+            <Spawns>
+                <SpawnOption_1 sHelperNamePrefix="Helper_Coffee" nNumberOfHelpers="2" archetype_PickupToSpawn="ArkPickups.Food.Can.KafeKarsk" />
+                <SpawnOption_2 sHelperNamePrefix="Helper_Tea" nNumberOfHelpers="3" archetype_PickupToSpawn="ArkPickups.Food.Can.GreenTea" />
+            </Spawns>
+            <AdditionalArchetypeProperties PrototypeMaterial="" />
+        </Properties>
+        <ObjectVars OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" ShadowCasterType="0" CastSunShadowMinSpec="3" LodRatio="100" ViewDistRatio="100" CastShadowViewDistRatio="20" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" SceneIndex="0" HiddenInProbes="0" />
+    </EntityPrototype>
+    </EntityPrototypeLibrary>

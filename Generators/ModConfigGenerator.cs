@@ -28,12 +28,12 @@ public class ModConfigGenerator
         await using var writer = XmlWriter.Create(writeStream, settings);
         await writer.WriteStartElementAsync(null, "Mod", null);
         await writer.WriteAttributeStringAsync(null, "modName", null, ModName);
-        await writer.WriteAttributeStringAsync(null, "displayname", null, ModDisplayName);
+        await writer.WriteAttributeStringAsync(null, "displayName", null, ModDisplayName);
         await writer.WriteAttributeStringAsync(null, "version", null, ModVersion);
         await writer.WriteAttributeStringAsync(null, "author", null, ModAuthor);
         await writer.WriteAttributeStringAsync(null, "dllName", null, "");
         await writer.WriteAttributeStringAsync(null, "hasXML", null, "true");
-        await writer.WriteAttributeStringAsync(null, "hasLevelXML", null, "false");
+        await writer.WriteAttributeStringAsync(null, "hasLevelXML", null, "true");
         await writer.WriteAttributeStringAsync(null, "enableShaderCompiler", null, "false");
         await writer.WriteEndElementAsync();
         await writer.FlushAsync();
