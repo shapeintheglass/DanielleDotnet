@@ -2,6 +2,7 @@
 using System.Xml.Linq;
 using DanielleDotnet.Core;
 using DanielleDotnet.Generators;
+using DanielleDotnet.Utils;
 using Microsoft.Extensions.Logging;
 
 namespace DanielleDotnet.Randomizers;
@@ -40,32 +41,29 @@ public class FruitTreeRandomizer(ILogger<FruitTreeRandomizer> logger, FileManage
 
             var outputFileName = Path.Combine(outputPath, fruitTreeFileName);
             
-            await using var inputStream = File.OpenRead(fruitTreeFilePath);
-            await using var outputStream = File.OpenWrite(outputFileName);
-            using var reader = XmlReader.Create(inputStream, new XmlReaderSettings {Async = true});
-            await using var writer = XmlWriter.Create(outputStream, new XmlWriterSettings {Async = true, Indent = false});
-            var inputTree = await XElement.LoadAsync(reader, LoadOptions.None, ct);
-            foreach (var e in inputTree.Descendants())
-            {
-                if (!SpawnOptionNodeNames.Contains(e.Name.LocalName))
-                {
-                    continue;
-                }
-                // Check if there is already an archetype defined
-                var existingArchetype = e.Attribute(ArchetypeAttributeName);
-                if (existingArchetype == null)
-                {
-                    continue;
-                }
-                // TODO: Include entity and library name to allow blocklisting fruit trees?
-                var newArchetype = efh.GetNewEntity(existingArchetype.Value, "", "", _r);
-                if (!string.IsNullOrEmpty(newArchetype))
-                {
-                    e.SetAttributeValue(ArchetypeAttributeName, newArchetype);
-                }
-            }
+            await XmlReaderHelper.ProcessXmlFileAsync(fruitTreeFilePath, outputFileName, UpdateFruitTree, ct);
+        }
+    }
 
-            await inputTree.WriteToAsync(writer, ct);
+    private void UpdateFruitTree(XElement e)
+    {
+        if (!SpawnOptionNodeNames.Contains(e.Name.LocalName))
+        {
+            return;
+        }
+
+        // Check if there is already an archetype defined
+        var existingArchetype = e.Attribute(ArchetypeAttributeName);
+        if (existingArchetype == null)
+        {
+            return;
+        }
+
+        // TODO: Include entity and library name to allow blocklisting fruit trees?
+        var newArchetype = efh.GetNewEntity(existingArchetype.Value, "", "", _r);
+        if (!string.IsNullOrEmpty(newArchetype))
+        {
+            e.SetAttributeValue(ArchetypeAttributeName, newArchetype);
         }
     }
 }

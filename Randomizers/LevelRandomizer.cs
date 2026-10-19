@@ -3,6 +3,7 @@ using System.Xml;
 using System.Xml.Linq;
 using DanielleDotnet.Core;
 using DanielleDotnet.Randomizers.Filters;
+using DanielleDotnet.Utils;
 using Microsoft.Extensions.Logging;
 
 namespace DanielleDotnet.Randomizers;
@@ -71,20 +72,13 @@ public class LevelRandomizer : IRandomizer
             Directory.CreateDirectory(dir);
         }
 
-        await using var inputStream = File.OpenRead(pathToLevelFile);
-        await using var outputStream = File.OpenWrite(pathToOutputFile);
-        using var reader = XmlReader.Create(inputStream, new XmlReaderSettings { Async = true });
-        await using var writer = XmlWriter.Create(outputStream, new XmlWriterSettings{ Async = true, Indent = false });
-
-        var inputTree = await XElement.LoadAsync(reader, LoadOptions.None, ct);
-        foreach (var e in inputTree.DescendantsAndSelf())
+        var action = new Action<XElement>(e =>
         {
             foreach (var filter in _filters)
             {
                 filter.Apply(e, r, levelFile);
             }
-        }
-
-        await inputTree.WriteToAsync(writer, ct);
+        });
+        await XmlReaderHelper.ProcessXmlFileAsync(pathToLevelFile, pathToOutputFile, action, ct);
     }
 }

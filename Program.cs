@@ -20,6 +20,7 @@ internal class Program
         builder.Services.AddSingleton<VoiceRandomizer>();
         builder.Services.AddSingleton<LevelRandomizer>();
         builder.Services.AddSingleton<FruitTreeRandomizer>();
+        builder.Services.AddSingleton<FabPlanCostRandomizer>();
         builder.Services.AddSingleton<ArchetypeSwapFilter>();
         builder.Services.AddSingleton<EntityFilterHelper>();
         builder.Services.AddSingleton<EntityTagDb>();

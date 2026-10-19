@@ -5,7 +5,7 @@ namespace DanielleDotnet.Generators;
 public class ModConfigGenerator
 {
     private const string ModInfoFileName = "ModInfo.xml";
-    public const string ModName = "DotnetRandomizer";
+    public const string ModName = "kida.DotnetRandomizer";
     private const string ModDisplayName = "DotnetRandomizer";
     private const string ModVersion = "0.1.0";
     private const string ModAuthor = "kida";
